@@ -1,0 +1,40 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5B5B5B;
+}
+body {
+	background-color: #EDEDED;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+	background-image: url(images/taling.jpg);
+	background-repeat:repeat-x;
+}
+a:link {
+	color: #8FBD07;
+}
+a:visited {
+	color: #8FBD07;
+}
+a:hover {
+	color: #8FBD07;
+}
+a:active {
+	color: #8FBD07;
+}
+.menu{
+background-image:url(images/menu.jpg);background-repeat:no-repeat;
+}
+#linktop{
+color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;;text-decoration:none;
+}
+.wht{
+background-color:#FFFFFF;
+}
+.style1 {color: #0098EF}

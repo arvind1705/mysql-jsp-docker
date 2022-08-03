@@ -1,0 +1,17 @@
+version: "3"
+services: 
+    mysql:
+        container_name: mysql
+        image: mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: 'mysql'
+            MYSQL_DATABASE: db
+        volumes:
+            - ./mysql:/docker-entrypoint-initdb.d
+        ports: 
+            - "3306:3306"
+    jsp-app:
+        container_name: jsp-app
+        build: .
+        ports: 
+            - "8080:8080"
